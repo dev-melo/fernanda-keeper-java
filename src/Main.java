@@ -45,6 +45,19 @@ public class Main {
             System.out.println("Falso");
         }
 
+        // Vetoris - Arrays
+
+        int[] colecaoInteiros = {1,2,3,4,5,6}; // int[] indica que essa variavel é um array e já inicia com valores padroes {1,2,3,4,5,6}
+
+        System.out.println(colecaoInteiros[0]); // pegando e mostrando o primeiro valor -[indice] do vetor
+        System.out.println(colecaoInteiros.length); // mostra o tamanho do array, qts posições existe
+
+        int[] meusNumeros = new int[10]; // criando um vetor com tamanho de 10 posições
+
+        
+
+
+
 
     }
 }
