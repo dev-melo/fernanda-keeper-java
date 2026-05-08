@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         // -- Declarar variaveis
@@ -54,9 +56,21 @@ public class Main {
 
         int[] meusNumeros = new int[10]; // criando um vetor com tamanho de 10 posições
 
-        
-
-
+        // ArrayList: cria um vetor mutável
+        ArrayList<String> lista = new ArrayList<>(); // criando um ArrayList de String
+        lista.add("Felipe Melo");
+        lista.add("Iori Melo");
+        lista.add("Kiboo Melo");
+        lista.add("Tihna Melo");
+        lista.add("Doidn Melo");
+        lista.add("Churros Melo");
+        System.out.println(lista);
+        System.out.println("-");
+        System.out.println(lista.get(3));
+        lista.remove(3);
+        System.out.println(lista.get(3));
+        lista.remove("Kiboo Melo");
+        System.out.println(lista.get(3));
 
 
     }
