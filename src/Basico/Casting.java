@@ -1,3 +1,5 @@
+package Basico;
+
 public class Casting {
     public static void main(String[] args) {
         double res = 0.0;

@@ -1,3 +1,5 @@
+package Basico;
+
 public class TiposPrivimivos {
     public static void main(String[] args) {
         // -- Tipos Primitivos

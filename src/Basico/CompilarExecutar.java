@@ -1,3 +1,5 @@
+package Basico;
+
 public class CompilarExecutar {
     public static void main(String[] args) {
         /*
